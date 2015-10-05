@@ -1,0 +1,155 @@
+html, body {height: 100%;
+            width:100%}
+
+#wrap {min-height: 100%;}
+
+#main {overflow:auto;/* must be same height as the footer */
+	padding-bottom: 30px;
+    margin-left:340px;
+}  
+
+#footer {position: relative;
+	margin-top: -30px; /* negative value of footer height */    
+	height: 150px;
+	clear:both;} 
+
+/*Opera Fix*/
+body:before {
+	content:"";
+	height:100%;
+	float:left;
+	width:0;
+	margin-top:-32767px;/
+}
+
+
+#footer ul{
+    display:inline;
+    padding: 0 1em;
+    
+}
+
+#footer {
+  width:100%; 
+}
+.footer-section {
+  float:left;
+  width:50%;
+}
+
+#push {margin-left:5em;
+}
+
+#header {
+    height:2.5em;
+    width:auto;
+    
+}
+
+
+h1{
+    position:relative;
+    margin-top:5em;
+    text-align:center;
+    
+}
+#buttonbox{
+    width: 18.75em;
+    height:2em;    
+    float:right;
+    background-color:white;
+    padding-top:0.63em;
+    
+}
+#buttonbox a{
+    margin:0;
+    padding:.5em;
+}
+
+#google{
+    font-size:4em;
+    font-family:serif;
+    text-align:center;
+    
+ }
+
+#input {
+    width:45.70em;
+    margin-right:auto;
+    margin-left:auto;
+    border: 2px solid #000;
+}
+
+#squarebuttons{
+    width:30em;
+    height:2em;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top:1em;
+    padding-bottom:1em;
+    
+}
+
+/*Style Google name*/
+#a {
+    color:blue;
+    margin: 0 0.100em;
+}
+#b {
+    color:red;
+    margin: 0 0.100em;
+}
+#c {
+    color:gold;
+    margin: 0 0.100em;
+}
+#d {
+    color:blue;
+    margin: 0 0.100em;
+}
+#e {
+    color:green;
+    margin: 0 0.100em;
+}
+#f {
+    color:red;
+    margin: 0 0.100em;
+}
+
+.butt {
+    border: 1px outset blue;
+    background-color: aliceblue;
+    height:3.5em;
+    width:12em;
+    margin-left:50px;
+    margin-bottom: 20px;
+
+    
+}
+
+.butt:hover {
+   border: 2px  grey;
+    color:white;
+}
+
+a{
+    text-decoration:none;
+}
+ 
+a:link {
+    color:grey;
+}
+a:visited {
+    color: grey;
+}
+a:focus {
+    color: none;
+}
+a:hover {
+    text-decoration:underline;
+}
+a:active {
+    color:blue;
+}
+
+
