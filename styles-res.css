@@ -1,0 +1,140 @@
+a:link {}
+a:visited {} 
+a:focus {color: none;}    
+a:hover {text-decoration:underline;}    
+a:active {color:blue;}   
+
+/*Sticky Footer Cheat */
+
+html, body {height: 100%; font-family:serif;}
+#page-wrap {min-height: 100%;}
+#main-content {overflow:auto;
+	padding-bottom: 56px;}  /* must be same height as the footer */
+#footer {position: relative;
+	margin-top: -60px; /* negative value of footer height */
+	height: 30px;
+    clear:both;}   
+
+/*Opera Fix*/
+body:before {
+	content:"";
+	height:100%;
+	float:left;
+	width:0;
+    margin-top:-32767px;}
+#header {
+    height:2.6em;
+    width:auto;}
+#right-navigation{
+    width: 18.75em;
+    height:2em;    
+    float:right;
+    background-color:white;
+    padding-top:0.63em;}
+li{
+    display:inline;
+    padding:0px 2px; }
+a{
+    text-decoration:none;
+    font-family: sans-serif;
+    color:black;    
+    font-size:0.8em;}
+ img#applink {
+    width:20px;
+    height:20px;
+    vertical-align:middle;} 
+#signin {
+    background-color:#4285F4;
+    border: 1px solid #4285F4;
+    height:30px;
+    width:40px;
+    color:white;
+    padding-right:50px;
+    border-radius:4px;
+    margin-left:10px;}
+#logo {
+    display:block;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:10%;}
+#input-form{
+    display:block;
+    margin-right:auto;
+    margin-left:auto;
+	border: 1px solid grey;  
+	width: 700px;
+	height: 35px;    
+    background-image:url(black-microphone.png);
+    background-repeat:no-repeat;
+    background-size:20px 20px;
+    background-position:right;
+    font-size:1.375em;}  
+ .buttons {
+    border: 1px outset grey;
+    background-color: aliceblue;
+    height:2em;
+    width:9em;
+    margin-left:30px;
+    margin-bottom: 20px;
+    border-radius: 3px;} 
+#search-buttons{
+    width:20em;
+    height:2em;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top:1em;
+    padding-bottom:1em;}
+#search-button{float:left;}
+#lucky-button{float:right;}
+#footer {
+  width:100%;
+  background-color:#F2F2F2;}
+#footer li a{
+    padding: 2px 0px 2px 1px;
+    margin: 15px 14px 10px 20px;
+    line-height: 3em;
+    color:#666;}  
+#left-foot{
+    width:100px;
+    height:40px;
+    display:inline-block;
+    vertical-align:middle;
+    width:32%;}
+#center-foot{
+    width:100px;
+    height:40px;
+    display:inline-block;
+    width:32%;}
+#right-foot{
+    width:40px;
+    height:40px;
+    display:inline-block;
+    width:32%;
+    text-align:right;
+    margin: 0px 0px 0px 50px;}   
+
+ 
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
