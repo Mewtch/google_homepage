@@ -1,6 +1,7 @@
 
 <!DOCTYPE html>
 <html lang="en">
+    
    <head>
     <meta charset="utf-8">
     <title>Odin Project, Google Home</title>
@@ -12,58 +13,73 @@
 
 
     <div id="wrap">
-
-	<div id="header">
-        <div id = "buttonbox">
-                    <a href="#">Gmail</a>
-                    <a href="#">Images</a>
-                    <a href="#">Sprite</a>                    
-                    <a href="#">Sign In</a>
+      <div id="header">
+        <div id = "top-nav">
+            <ul>
+                  <li><a href="#">+You</a><li>
+                  <li><a href="#">Gmail</a><li>  
+                  <li><a href="#">Images</a><li>
+             
+            
+                  <li><a href="#"><img id="applink" title ="Google Aps" src="googleAppsIcon.png" ></a><li>      
+                
+                  <input id="signin" type="button" value="Sign In"/>  
+            </ul>       
         </div>                
-                
+     </div>           
 
-	</div>
+        
 
-	<div id="main">
-       
-          <h1 id ="google"><span id ="a">G</span><span id ="b">o</span><span id ="c">o</span><span id ="d">g</span><span id ="e">l</span><span id ="f">e</span>
-                </h1>
+
+
+	
+        <div id="main">   
+          <h1 id ="google"><span id ="a">G</span><span id ="b">o</span><span id ="c">o</span><span id ="d">g</span><span id ="e">l</span><span id ="f">e</span></h1>
                 
-                <div id = "input">
-                    <form action ="#" >
-                        <input type="text" size="100" maxlength="100" placeholder ="some text goes here"  />
+                
+                <div id = "input-div">
+                    <form action ="#" method="post">
+                        <input type="text" id= "input-form" placeholder =""  />
                     </form>
                 </div>
-            
-            
-            
-            
-                <div id ="squarebuttons">
-                <input class="butt" type="button" value="Google Search"/>
-                <input class="butt" type="button" value="I'm feeling lucky!"/>
+                <div id ="search-buttons">
+                    <div id="search">
+                        <input class="butt" type="button" value="Google Search"/>
+                    </div>
+                    <div id="lucky">
+                        <input class="butt" type="button" value="I'm feeling lucky!"/>
+                    </div>
                 </div>
-            
+            </div>
             
 
-	</div>
-
-    </div>
+	
+            
+    </div> 
 
     <div id="footer">
-               <div class ="footer-section">
-                  <ul><a href="#">Advertising</a></ul>
-                  <ul>  <a href="#">Business</a></ul>
-                  <ul>  <a href="#">About</a> </ul>  
-                </div>
+        <div class ="footer-section">
+            <ul>   
+             <li><a href="#">Advertising</a></li>
+             <li><a href="#">Business</a></li>
+             <li ><a href="#">About</a> </li> 
+           </ul>        
+         </div>
         
-              <div class ="footer-section">
-                  <ul>  <a href="#">Privacy</a></ul>
-                  <ul>  <a href="#">Terms</a></ul>
-                <ul> <a href="#">Settings</a></ul>
-             </div>
+    <div class ="footer-section">
+          <ul>  
+             <li id="unfortunate-correction"><a href="#">Privacy</a></li>
+             <li><a href="#">Terms</a></li>
+             <li><a href="#">Settings</a></li>
+          </ul>   
+     </div>
 
     </div>
+       
+            
+  
 
+    
 
 
 
